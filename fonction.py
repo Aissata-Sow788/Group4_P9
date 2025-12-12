@@ -1,6 +1,6 @@
 
-def addition(a,b):
-     somme = a + b
+def addition(x,y):
+     somme = x + y
 
      return somme
 
