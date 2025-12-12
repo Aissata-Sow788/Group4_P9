@@ -1,3 +1,6 @@
-def salutation():
-    return "Hello from Fassa Samb"
+nom = "Fassa"
+
+print(f"Bonjour, {nom}")
+
+print("Hello Aissata")
 
