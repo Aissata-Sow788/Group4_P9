@@ -3,12 +3,12 @@
 def verifiermdp(mdp: str):
     
     mdp_vrai = "123a"
-    i = 0
+    x = 0
 
     while mdp != mdp_vrai and i < 3:
         mdp = input(f"incorrect veuiller saisir un mot de passe correct")
-        print(f"tentative : {i}")
-        i = i + 1
+        print(f"tentative : {x}")
+        x = x + 1
 
     return mdp == mdp_vrai
 
